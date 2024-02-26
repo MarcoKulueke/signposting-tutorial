@@ -56,6 +56,7 @@ In this tutorial we will cover:
     - [Where to add Signposting?](#where-to-add-signposting)
     - [Adding a persistent identifier](#adding-a-persistent-identifier)
       - [Using a w3id persistent identifier](#using-a-w3id-persistent-identifier)
+    - [Specifying the resource type](#specifying-the-resource-type)
     - [Specifying authors](#specifying-authors)
     - [Specifying license](#specifying-license)
     - [Specifying content downloads](#specifying-content-downloads)
@@ -208,7 +209,9 @@ alt text
 Add the below signposting to reflect your username, and use this instead as a `cite-as`:
 
 ```html
-<link href="https://w3id.org/signposting-tutorial/stain.7338056" https://spdx.org/licenses/CC-BY-4.0"
+<link href="https://w3id.org/signposting-tutorial/stain.7338056" />
+```
+
 <img src="./icons/citation.svg" width="16" height="16" alt="Literature:" /> If you manage a repository, you likely already assign persistent identifiers that can be used with `cite-as` -- if not, consider these resources:
 
 * [Identifiers for the 21st century](https://doi.org/10.1371/journal.pbio.2001414): How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data
