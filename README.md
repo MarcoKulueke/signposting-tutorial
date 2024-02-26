@@ -209,7 +209,7 @@ alt text
 Add the below signposting to reflect your username, and use this instead as a `cite-as`:
 
 ```html
-<link href="https://w3id.org/signposting-tutorial/stain.7338056" />
+<link href="https://w3id.org/signposting-tutorial/stain.7338056" rel="cite-as" />
 ```
 
 <img src="./icons/citation.svg" width="16" height="16" alt="Literature:" /> If you manage a repository, you likely already assign persistent identifiers that can be used with `cite-as` -- if not, consider these resources:
